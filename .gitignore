@@ -1,0 +1,9 @@
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# PyCharm IDE Files
+.idea/
