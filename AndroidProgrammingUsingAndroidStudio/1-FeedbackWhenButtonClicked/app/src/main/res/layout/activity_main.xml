@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Adding a button by XML Coding.-->
+
+    <!-- 1. Setting Button width and height -->
+    <!-- 2. Setting button's id as 'button1' -->
+    <!-- 3. Setting button's printing text
+            the string is in strings.xml,
+            named 'button1String. -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/button1"
+        android:text="@string/button1String" />
+</LinearLayout>
