@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">12-2-BroadcastReceiver</string>
+    <string name="currentStatus">Current Status</string>
+    <string name="adapterStatus">Adapter Status</string>
+</resources>
