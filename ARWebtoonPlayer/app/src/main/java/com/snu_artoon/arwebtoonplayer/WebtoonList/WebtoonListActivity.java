@@ -27,7 +27,6 @@ public class WebtoonListActivity extends AppCompatActivity {
     ArrayList<String> webtoonTitles = new ArrayList<>();
     ArrayList<String> webtoonAuthors = new ArrayList<>();
     ArrayList<String> webtoonThumbnailImages = new ArrayList<>();
-    ArrayList<Float> webtoonScores = new ArrayList<>();
 
     // a private constant that is used for asking permission.
     private static final int READ_EXTERNAL_STORAGE_PERMISSION_CODE = 0;
@@ -54,13 +53,12 @@ public class WebtoonListActivity extends AppCompatActivity {
 
         // setting the recyclerView.
         WebtoonListRecyclerAdapter adapter = new WebtoonListRecyclerAdapter(
+                this,
                 webtoonTitles,
                 webtoonAuthors,
-                webtoonScores,
                 webtoonThumbnailImages);
         webtoonListRecyclerView.setAdapter(adapter);
         webtoonListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        webtoonListRecyclerView.setVerticalScrollBarEnabled(true);
     }
 
     @Override
@@ -86,10 +84,6 @@ public class WebtoonListActivity extends AppCompatActivity {
             webtoonTitles.add(cursor.getString(0));
             webtoonAuthors.add(cursor.getString(1));
             webtoonThumbnailImages.add(cursor.getString(2));
-            int likeNumber = cursor.getInt(3);
-            int dislikeNumber = cursor.getInt(4);
-            // maximum score is 5.
-            webtoonScores.add(((float)likeNumber / (likeNumber + dislikeNumber)) * 5);
         }
         cursor.close();
         dbManager.close();

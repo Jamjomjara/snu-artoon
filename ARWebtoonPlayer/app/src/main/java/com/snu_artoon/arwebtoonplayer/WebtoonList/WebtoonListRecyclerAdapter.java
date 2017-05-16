@@ -3,37 +3,39 @@
 
 package com.snu_artoon.arwebtoonplayer.WebtoonList;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.snu_artoon.arwebtoonplayer.ChapterList.ChapterListActivity;
+import com.snu_artoon.arwebtoonplayer.HashManager.HashManager;
 import com.snu_artoon.arwebtoonplayer.ImageLoader.LocalImageLoader;
 import com.snu_artoon.arwebtoonplayer.R;
 
-import org.w3c.dom.Text;
-
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
-import java.util.Locale;
 
 public class WebtoonListRecyclerAdapter
         extends RecyclerView.Adapter<WebtoonListRecyclerAdapter.ViewHolder> {
+    private Context context;
     private ArrayList<String> webtoonTitles;
     private ArrayList<String> webtoonAuthors;
-    private ArrayList<Float> webtoonScores;
     private ArrayList<String> webtoonThumbnailImages;
 
     // Constructor
-    public WebtoonListRecyclerAdapter(ArrayList<String> webtoonTitles,
+    public WebtoonListRecyclerAdapter(Context context,
+                                      ArrayList<String> webtoonTitles,
                                       ArrayList<String> webtoonAuthors,
-                                      ArrayList<Float> webtoonScores,
                                       ArrayList<String> webtoonThumbnailImages) {
+        this.context = context;
         this.webtoonTitles = webtoonTitles;
         this.webtoonAuthors = webtoonAuthors;
-        this.webtoonScores = webtoonScores;
         this.webtoonThumbnailImages = webtoonThumbnailImages;
     }
 
@@ -42,16 +44,12 @@ public class WebtoonListRecyclerAdapter
         public ImageView webtoonThumbnailImage;
         public TextView webtoonTitleText;
         public TextView webtoonAuthorText;
-        public RatingBar webtoonRatingBar;
-        public TextView webtoonRatingText;
 
         public ViewHolder(View itemView) {
             super(itemView);
             webtoonThumbnailImage = (ImageView)itemView.findViewById(R.id.webtoon_thumbnail_image);
             webtoonTitleText = (TextView)itemView.findViewById(R.id.webtoon_title_text);
             webtoonAuthorText = (TextView)itemView.findViewById(R.id.webtoon_author_text);
-            webtoonRatingBar = (RatingBar)itemView.findViewById(R.id.webtoon_rating_bar);
-            webtoonRatingText = (TextView)itemView.findViewById(R.id.webtoon_rating_text);
         }
     }
 
@@ -59,17 +57,33 @@ public class WebtoonListRecyclerAdapter
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.layout_webtoon_list_cell, parent, false);
+                .inflate(R.layout.layout_webtoon_list_cell, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+        final String webtoonTitle = webtoonTitles.get(position);
+        final String webtoonAuthor = webtoonAuthors.get(position);
         LocalImageLoader.load(holder.webtoonThumbnailImage, webtoonThumbnailImages.get(position));
-        holder.webtoonTitleText.setText(webtoonTitles.get(position));
-        holder.webtoonAuthorText.setText(webtoonAuthors.get(position));
-        holder.webtoonRatingBar.setRating(webtoonScores.get(position));
-        holder.webtoonRatingText.setText(String.format(Locale.US, "%.2f", webtoonScores.get(position)));
+        holder.webtoonTitleText.setText(webtoonTitle);
+        holder.webtoonAuthorText.setText(webtoonAuthor);
+
+        // OnClickListener to call ChapterListActivity when clicked.
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String webtoonKey = webtoonTitle + "_" + webtoonAuthor;
+                String hashID = HashManager.md5(webtoonKey);
+                System.out.println(HashManager.md5(webtoonKey));
+
+                // Make an intent and call ChapterListActivity.
+                Intent intent = new Intent(context, ChapterListActivity.class);
+                intent.putExtra("hashID", hashID);
+                intent.putExtra("webtoonTitle", webtoonTitle);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
