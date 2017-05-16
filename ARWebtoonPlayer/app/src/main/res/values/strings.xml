@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ARWebtoonPlayer</string>
+    <string name="webtoon_list_activity_title">Webtoons</string>
 </resources>
