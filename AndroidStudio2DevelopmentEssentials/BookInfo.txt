@@ -1,9 +1,0 @@
-Android Studio 2 Development Essentials
-(핵심만 골라 배우는 안드로이드 스튜디오 & 프로그래밍)
-
-닐 스미스 지음
-제이펍
-2016년 6월 10일 1쇄 발행
-
-Seoul National University Library
-005.268 Sm97a, 2016
