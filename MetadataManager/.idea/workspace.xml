@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37505b89-6bec-44ba-82eb-6895071d79fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata" afterPath="$PROJECT_DIR$/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/layout/layout_webtoon_view_cell.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/layout/layout_webtoon_view_cell.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MetadataManager.java" afterPath="$PROJECT_DIR$/src/MetadataManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,39 +24,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetadataManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MetadataManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
-                <element signature="e#0#4825#0" expanded="true" />
+                <element signature="e#0#4859#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <marker date="1495009805000" expanded="true" signature="894:1017" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495009805000" expanded="true" signature="1207:1283" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495009805000" expanded="true" signature="1207:1428" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495009805000" expanded="true" signature="2657:2682" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495009805000" expanded="true" signature="2657:2893" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495009805000" expanded="true" signature="3084:3109" ph="CREATE TABLE... ImageListDB_missingValue" />
-                <marker date="1495009805000" expanded="true" signature="3084:3180" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495009805000" expanded="true" signature="3084:3191" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-                <marker date="1495009805000" expanded="true" signature="4554:4600" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-                <marker date="1495009805000" expanded="true" signature="4554:4631" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-                <marker date="1495009805000" expanded="true" signature="4554:4632" ph="INSERT INTO ChapterListDB_missingValue... " />
-                <marker date="1495009805000" expanded="true" signature="4554:4675" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-                <marker date="1495009805000" expanded="true" signature="4554:4682" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+                <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
+                <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
+                <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
+                <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
+                <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
+                <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
+                <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
+                <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+                <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+                <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+                <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
+                <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+                <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MetadataManager.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="-908">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
-                <element signature="e#0#4323#0" expanded="true" />
+                <element signature="e#0#4663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +75,8 @@
       <file leaf-file-name="HashManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="210">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#0#1256#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -78,6 +94,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>scanner.nextInt()</find>
+      <find>scanner.nextint</find>
+      <find>nextint</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>println</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -90,8 +117,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HashManager.java" />
-        <option value="$PROJECT_DIR$/src/MetadataManager.java" />
         <option value="$PROJECT_DIR$/src/ConsoleManager.java" />
+        <option value="$PROJECT_DIR$/src/MetadataManager.java" />
       </list>
     </option>
   </component>
@@ -121,10 +148,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MetadataManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MetadataManager" />
@@ -151,7 +188,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,13 +199,86 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ConsoleManager">
+    <configuration default="false" name="ConsoleManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ConsoleManager" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MetadataManager" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -194,6 +304,161 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -215,12 +480,110 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MetadataManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -251,6 +614,66 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.ConsoleManager" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ConsoleManager" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -268,16 +691,25 @@
       <option name="presentableId" value="Default" />
       <updated>1495008184282</updated>
       <workItem from="1495008188271" duration="1002000" />
-      <workItem from="1495009217590" duration="1368000" />
+      <workItem from="1495009217590" duration="3473000" />
+      <workItem from="1495093244220" duration="307000" />
     </task>
+    <task id="LOCAL-00001" summary="Add jdbc library and solve input bugs caused by carriage return after nextInt() method">
+      <created>1495011958678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495011958678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2370000" />
+    <option name="totallyTimeSpent" value="4782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -287,7 +719,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,6 +737,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -315,9 +748,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add jdbc library and solve input bugs caused by carriage return after nextInt() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jdbc library and solve input bugs caused by carriage return after nextInt() method" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
@@ -325,21 +766,53 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#4825#0" expanded="true" />
+            <element signature="e#0#4859#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1495009805000" expanded="true" signature="894:1017" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="1207:1283" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="1207:1428" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="2657:2682" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="2657:2893" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="3084:3109" ph="CREATE TABLE... ImageListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="3084:3180" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="3084:3191" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="4554:4600" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4631" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4632" ph="INSERT INTO ChapterListDB_missingValue... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4675" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4682" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#4859#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
           </folding>
         </state>
       </provider>
@@ -348,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3570">
           <caret line="255" column="64" lean-forward="true" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -363,10 +835,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashManager.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="255" column="64" lean-forward="false" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-908">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#4663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#0#1256#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -374,44 +871,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="255" column="64" lean-forward="false" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <element signature="e#0#4825#0" expanded="true" />
+            <element signature="e#0#4859#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1495009805000" expanded="true" signature="894:1017" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="1207:1283" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="1207:1428" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="2657:2682" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="2657:2893" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495009805000" expanded="true" signature="3084:3109" ph="CREATE TABLE... ImageListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="3084:3180" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="3084:3191" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-            <marker date="1495009805000" expanded="true" signature="4554:4600" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4631" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4632" ph="INSERT INTO ChapterListDB_missingValue... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4675" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495009805000" expanded="true" signature="4554:4682" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4323#0" expanded="true" />
+            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
+            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
           </folding>
         </state>
       </provider>
@@ -473,7 +952,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

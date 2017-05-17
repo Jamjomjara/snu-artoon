@@ -13,12 +13,12 @@ public class MetadataManager {
     /**
      * Insert new webtoon, and generate a table for chapter database.
      * @param webtoonName new webtoon name
-     * @param authorName new webtoon's author name
+     * @param authorName new webiwtoon's author name
      * @param thumbnailImage thumbnail image's filename
      */
     public static void insertNewWebtoon(String webtoonName, String authorName, String thumbnailImage) {
+//        String url = "jdbc:sqlite:metadata";
         String url = "jdbc:sqlite:metadata";
-
         try {
             // Open SQL
             Connection connection = DriverManager.getConnection(url);
@@ -32,7 +32,7 @@ public class MetadataManager {
             // create chapterListDB table SQL
             String webtoonHashID = HashManager.md5(webtoonName + "_" + authorName);
             sql = "CREATE TABLE ChapterListDB_" + webtoonHashID
-                    + " VALUES(ChapterNumber TEXT, ChapterName TEXT, UploadedDate TEXT, " +
+                    + "(ChapterNumber TEXT, ChapterName TEXT, UploadedDate TEXT, " +
                     "LikeNumber INTEGER, DislikeNumber INTEGER, ThumbnailImage TEXT);";
             statement.execute(sql);
         } catch (SQLException e) {
@@ -72,7 +72,7 @@ public class MetadataManager {
             // create ImageListDB table SQL
             String chapterHashID = HashManager.md5(chapterNumber + "_" + chapterName);
             sql = "CREATE TABLE ImageListDB_" + webtoonHashID + "_" + chapterHashID
-                    + " VALUES(Image TEXT);";
+                    + "(Image TEXT);";
             statement.execute(sql);
         } catch (SQLException e) {
             e.printStackTrace();

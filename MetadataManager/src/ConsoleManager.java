@@ -25,8 +25,6 @@ public class ConsoleManager {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int selectedType;
-        System.out.print(askType);
-        selectedType = scanner.nextInt();
 
         // variables used
         String webtoon;
@@ -44,6 +42,9 @@ public class ConsoleManager {
         boolean keepGoing = true;
 
         while (keepGoing) {
+            System.out.print(askType);
+            selectedType = scanner.nextInt();
+            scanner.nextLine(); // removing carriage return
             switch (selectedType) {
                 case 1:
                     // ask the information
@@ -72,8 +73,10 @@ public class ConsoleManager {
                     uploaded= scanner.nextLine();
                     System.out.print(likeNumber);
                     like = scanner.nextInt();
+                    scanner.nextLine(); // removing carriage return
                     System.out.print(dislikeNumber);
                     dislike = scanner.nextInt();
+                    scanner.nextLine(); // removing carriage return
                     System.out.print(thumbnailImage);
                     thumbnail = scanner.nextLine();
 
@@ -96,8 +99,10 @@ public class ConsoleManager {
                     defaultImg = scanner.nextLine();
                     System.out.print(startNumber);
                     start = scanner.nextInt();
+                    scanner.nextLine(); // removing carriage return
                     System.out.print(endNumber);
                     end = scanner.nextInt();
+                    scanner.nextLine(); // removing carriage return
 
                     // ask the manager
                     MetadataManager.insertNewImages(webtoon, author, chapterNo, chapter,
