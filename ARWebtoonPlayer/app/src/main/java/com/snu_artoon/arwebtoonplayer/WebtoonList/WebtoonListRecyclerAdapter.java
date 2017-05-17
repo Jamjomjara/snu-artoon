@@ -17,8 +17,6 @@ import com.snu_artoon.arwebtoonplayer.HashManager.HashManager;
 import com.snu_artoon.arwebtoonplayer.ImageLoader.LocalImageLoader;
 import com.snu_artoon.arwebtoonplayer.R;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 public class WebtoonListRecyclerAdapter
@@ -69,17 +67,17 @@ public class WebtoonListRecyclerAdapter
         holder.webtoonTitleText.setText(webtoonTitle);
         holder.webtoonAuthorText.setText(webtoonAuthor);
 
-        // OnClickListener to call ChapterListActivity when clicked.
+        // OnClickListener to call WebtoonViewActivity when clicked.
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String webtoonKey = webtoonTitle + "_" + webtoonAuthor;
-                String hashID = HashManager.md5(webtoonKey);
-                System.out.println(HashManager.md5(webtoonKey));
+                String webtoonHashID = HashManager.md5(webtoonKey);
+                System.out.println("Webtoon ID : " + webtoonHashID);
 
-                // Make an intent and call ChapterListActivity.
+                // Make an intent and call WebtoonViewActivity.
                 Intent intent = new Intent(context, ChapterListActivity.class);
-                intent.putExtra("hashID", hashID);
+                intent.putExtra("webtoonHashID", webtoonHashID);
                 intent.putExtra("webtoonTitle", webtoonTitle);
                 context.startActivity(intent);
             }

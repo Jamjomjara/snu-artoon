@@ -38,7 +38,7 @@ public class ChapterListActivity extends AppCompatActivity {
 
         // get the intent information.
         inIntent = getIntent();
-        webtoonHashID = inIntent.getStringExtra("hashID");
+        webtoonHashID = inIntent.getStringExtra("webtoonHashID");
         webtoonTitle = inIntent.getStringExtra("webtoonTitle");
 
         setTitle(webtoonTitle);
@@ -57,7 +57,8 @@ public class ChapterListActivity extends AppCompatActivity {
                 chapterTitles,
                 chapterUploadedDates,
                 chapterRatings,
-                chapterThumbnailImages);
+                chapterThumbnailImages,
+                webtoonHashID);
         chapterListRecyclerView.setAdapter(adapter);
         chapterListRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     }

@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChapterList.ChapterListActivity"/>
+        <activity android:name=".WebtoonView.WebtoonViewActivity"/>
     </application>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
