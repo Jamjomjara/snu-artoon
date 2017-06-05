@@ -1,5 +1,7 @@
 import os
+import time
 from TextFileReader import *
+
 
 def main():
     # get the base directory
@@ -8,6 +10,7 @@ def main():
     # counter for percentage print
     stage_counter = 0
     total_stage = len(os.listdir(base_directory + "/Annotation"))
+    start_time = time.time()
 
     for filename in os.listdir(base_directory + "/Annotation"):
         # print the percentage.
@@ -31,6 +34,11 @@ def main():
         write_xml_tag(base_directory + "/XML/" + concatenate_extension(base_filename, "xml"),
                       concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
 
+    end_time = time.time()
+    print()
+    print("%d annotations converted into xml. Total running time: %lf secs." % (total_stage, end_time - start_time))
 
+
+# main function
 if __name__ == "__main__":
     main()
