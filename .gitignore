@@ -7,3 +7,4 @@
 
 # PyCharm IDE Files
 .idea/
+__pycache__
