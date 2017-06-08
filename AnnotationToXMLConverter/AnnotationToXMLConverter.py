@@ -1,6 +1,7 @@
 import os
 import time
-from TextFileReader import *
+import FileManager
+import FDDBAnnotationReader as fddb
 
 
 def main():
@@ -22,17 +23,37 @@ def main():
         if not filename.endswith(".txt"):
             continue
 
-        # get filename without .txt extension
-        base_filename = truncate_extension(filename, 3)
+        print("Select Datasource.")
+        print("1 - FDDB")
+        print("2 - Banana")
+        datasource_selection = input("Datasource # : ")
 
-        # read data from the file
-        image_size = read_image_size(base_directory + "/Image/" + concatenate_extension(base_filename, "jpg"))
-        annotation_data = read_annotation_data(base_directory + "/Annotation/"
-                                               + concatenate_extension(base_filename, "txt"), image_size)
+        if datasource_selection == 1:
+            # get filename without .txt extension
+            base_filename = FileManager.truncate_extension(filename, 3)
 
-        # write the xml file
-        write_xml_tag(base_directory + "/XML/" + concatenate_extension(base_filename, "xml"),
-                      concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
+            # read data from the file
+            image_size = fddb.read_image_size(base_directory + "/Image/" + FileManager.concatenate_extension(base_filename, "jpg"))
+            annotation_data = fddb.read_annotation_data(base_directory + "/Annotation/"
+                                                   + FileManager.concatenate_extension(base_filename, "txt"), image_size)
+
+            # write the xml file
+            fddb.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
+                               FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
+
+        elif datasource_selection == 2:
+            # get filename without .txt extension
+            base_filename = FileManager.truncate_extension(filename, 3)
+
+            # read data from the file
+            image_size = fddb.read_image_size(
+                base_directory + "/Image/" + FileManager.concatenate_extension(base_filename, "jpg"))
+            annotation_data = fddb.read_annotation_data(base_directory + "/Annotation/"
+                                                        + FileManager.concatenate_extension(base_filename, "txt"), image_size)
+
+            # write the xml file
+            fddb.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
+                               FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
 
     end_time = time.time()
     print()
