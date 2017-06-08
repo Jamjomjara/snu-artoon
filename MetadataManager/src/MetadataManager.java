@@ -1,10 +1,13 @@
 // MIT License
 // Copyright (c) 2017 SNU_ARTOON TEAM
 
+import com.sun.javafx.binding.StringFormatter;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Locale;
 
 /**
  * Class for managing 'metadata' file used for webtoon metadata.
@@ -90,9 +93,12 @@ public class MetadataManager {
      * @param imageFileName imagefile's name
      * @param startNumber start number
      * @param endNumber end number
+     * @param digit digit number
+     * @param extension extension if exists
      */
     public static void insertNewImages(String webtoonName, String authorName, String chapterNumber, String chapterName,
-                                       String imageFileName, int startNumber, int endNumber) {
+                                       String imageFileName, int startNumber, int endNumber,
+                                       int digit, String extension) {
         String url = "jdbc:sqlite:metadata";
 
         try {
@@ -102,11 +108,14 @@ public class MetadataManager {
 
             String webtoonHashID = HashManager.md5(webtoonName + "_" + authorName);
             String chapterHashID = HashManager.md5(chapterNumber + "_" + chapterName);
+
+
             // insert images into SQL
             String sql;
             for (int i = startNumber; i <= endNumber; i++) {
+                String imageNumber = String.format(Locale.US, "%0" + digit + "d", i);
                 sql = "INSERT INTO ImageListDB_" + webtoonHashID + "_"  + chapterHashID + " VALUES('"
-                        + imageFileName + i + "');";
+                        + imageFileName + imageNumber + extension + "');";
                 statement.execute(sql);
             }
         } catch (SQLException e) {

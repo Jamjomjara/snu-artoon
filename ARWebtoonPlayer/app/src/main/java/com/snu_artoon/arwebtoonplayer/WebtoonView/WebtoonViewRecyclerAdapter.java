@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.snu_artoon.arwebtoonplayer.ImageLoader.LocalImageLoader;
 import com.snu_artoon.arwebtoonplayer.R;
 
@@ -46,11 +47,16 @@ public class WebtoonViewRecyclerAdapter
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        String imageName = webtoonImages.get(position);
-        LocalImageLoader.load(holder.webtoonImage, imageName);
+        String imageURL = webtoonImages.get(position);
+//        LocalImageLoader.load(holder.webtoonImage, imageName);
+        // use Glide imageloader
+        Glide.with(context).load(imageURL).into(holder.webtoonImage);
+        System.out.println(imageURL);
 
         // as the imageView should not crop the image, make the boundary fit to the image.
         holder.webtoonImage.setAdjustViewBounds(true);
+
+
     }
 
     @Override

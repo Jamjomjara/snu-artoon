@@ -19,6 +19,8 @@ public class ConsoleManager {
     private static final String dislikeNumber = "Dislike Number : ";
     private static final String startNumber = "Start Number : ";
     private static final String endNumber = "End Number : ";
+    private static final String digitNumber = "Digit : ";
+    private static final String extensionString = "Extension : ";
     private static final String askType = "1 - Webtoon, 2 - Chapter, 3 - Image, 4 - quit :";
 
 
@@ -38,6 +40,8 @@ public class ConsoleManager {
         String defaultImg;
         int start;
         int end;
+        int digit;
+        String extension;
 
         boolean keepGoing = true;
 
@@ -103,10 +107,16 @@ public class ConsoleManager {
                     System.out.print(endNumber);
                     end = scanner.nextInt();
                     scanner.nextLine(); // removing carriage return
+                    System.out.print(digitNumber);
+                    digit = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.print(extensionString);
+                    extension = scanner.nextLine();
+
 
                     // ask the manager
                     MetadataManager.insertNewImages(webtoon, author, chapterNo, chapter,
-                            defaultImg, start, end);
+                            defaultImg, start, end, digit, extension);
                     break;
 
                 default:

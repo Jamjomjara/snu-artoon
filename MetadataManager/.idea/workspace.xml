@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37505b89-6bec-44ba-82eb-6895071d79fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata" afterPath="$PROJECT_DIR$/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/layout/layout_webtoon_view_cell.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/layout/layout_webtoon_view_cell.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MetadataManager.java" afterPath="$PROJECT_DIR$/src/MetadataManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewRecyclerAdapter.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewRecyclerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/build.gradle" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ConsoleManager.java" afterPath="$PROJECT_DIR$/src/ConsoleManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata" afterPath="$PROJECT_DIR$/metadata" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,27 +26,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetadataManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MetadataManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="1540">
+              <caret line="117" column="74" lean-forward="false" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
               <folding>
-                <element signature="e#0#4859#0" expanded="true" />
+                <element signature="e#0#5187#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
-                <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-                <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-                <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-                <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
-                <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-                <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+                <marker date="1496654638000" expanded="true" signature="1015:1138" ph="INSERT INTO WebtoonListDB... " />
+                <marker date="1496654638000" expanded="true" signature="1328:1542" ph="CREATE TABLE... ChapterListDB_missingValue" />
+                <marker date="1496654638000" expanded="true" signature="2771:3007" ph="INSERT INTO ChapterListDB_missingValue... " />
+                <marker date="1496654638000" expanded="true" signature="3198:3298" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+                <marker date="1496654638000" expanded="true" signature="4894:4971" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+                <marker date="1496654638000" expanded="true" signature="4894:5044" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
               </folding>
             </state>
           </provider>
@@ -60,13 +55,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConsoleManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-908">
-              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="202">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <element signature="e#0#4663#0" expanded="true" />
+                <element signature="e#0#5096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +70,7 @@
       <file leaf-file-name="HashManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HashManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="182">
               <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#0#1256#0" expanded="true" />
@@ -117,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HashManager.java" />
-        <option value="$PROJECT_DIR$/src/ConsoleManager.java" />
         <option value="$PROJECT_DIR$/src/MetadataManager.java" />
+        <option value="$PROJECT_DIR$/src/ConsoleManager.java" />
       </list>
     </option>
   </component>
@@ -148,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,23 +165,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MetadataManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MetadataManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,10 +179,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="FullScreen" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager" selected="Application.ConsoleManager">
     <configuration default="false" name="ConsoleManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -693,6 +674,9 @@
       <workItem from="1495008188271" duration="1002000" />
       <workItem from="1495009217590" duration="3473000" />
       <workItem from="1495093244220" duration="307000" />
+      <workItem from="1496652524097" duration="2148000" />
+      <workItem from="1496736585807" duration="15000" />
+      <workItem from="1496826797550" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Add jdbc library and solve input bugs caused by carriage return after nextInt() method">
       <created>1495011958678</created>
@@ -705,11 +689,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4782000" />
+    <option name="totallyTimeSpent" value="6954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -718,7 +702,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -736,6 +719,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -763,82 +747,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1540">
+          <caret line="117" column="74" lean-forward="false" selection-start-line="117" selection-start-column="74" selection-end-line="117" selection-end-column="74" />
           <folding>
-            <element signature="e#0#4859#0" expanded="true" />
+            <element signature="e#0#5187#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1496654638000" expanded="true" signature="1015:1138" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1496654638000" expanded="true" signature="1328:1542" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1496654638000" expanded="true" signature="2771:3007" ph="INSERT INTO ChapterListDB_missingValue... " />
+            <marker date="1496654638000" expanded="true" signature="3198:3298" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+            <marker date="1496654638000" expanded="true" signature="4894:4971" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+            <marker date="1496654638000" expanded="true" signature="4894:5044" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4859#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="255" column="64" lean-forward="true" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HashManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#1256#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="255" column="64" lean-forward="false" selection-start-line="255" selection-start-column="15" selection-end-line="255" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -852,45 +772,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-908">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="202">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="e#0#4663#0" expanded="true" />
+            <element signature="e#0#5096#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="182">
           <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#0#1256#0" expanded="true" />
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#4859#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <marker date="1495093381000" expanded="true" signature="942:1065" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="1255:1324" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="1255:1469" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="2698:2723" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="2698:2934" ph="INSERT INTO WebtoonListDB... " />
-            <marker date="1495093381000" expanded="true" signature="3125:3150" ph="CREATE TABLE... ImageListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3214" ph="CREATE TABLE... ChapterListDB_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="3125:3225" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-            <marker date="1495093381000" expanded="true" signature="4588:4634" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4665" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4666" ph="INSERT INTO ChapterListDB_missingValue... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4709" ph="INSERT INTO ImageListDB_missingValue_missingValueVALUES... " />
-            <marker date="1495093381000" expanded="true" signature="4588:4716" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
           </folding>
         </state>
       </provider>
