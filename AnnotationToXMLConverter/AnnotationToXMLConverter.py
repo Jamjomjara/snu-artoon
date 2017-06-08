@@ -15,7 +15,7 @@ def main():
     print("Select Datasource.")
     print("1 - FDDB")
     print("2 - Banana")
-    datasource_selection = input("Datasource # : ")
+    datasource_selection = int(input("Datasource # : "))
 
     start_time = time.time()
 
@@ -25,30 +25,35 @@ def main():
         print(stage_counter, "/", total_stage, end=" ", sep=" ")
         print("(", int(stage_counter / total_stage * 100), "%)", sep="")
 
-        # check the given file is a valid txt file.
-        if not filename.endswith(".txt"):
-            continue
-
-        image_size = None
-        annotation_data = None
-
         base_filename = FileManager.truncate_extension(filename, 3)
 
         # read data from the file
         if datasource_selection == 1:
+            # check the given file is a valid txt file.
+            if not filename.endswith(".txt"):
+                continue
+
             image_size = fddb.read_image_size(base_directory + "/Image/" + FileManager.concatenate_extension(base_filename, "jpg"))
             annotation_data = fddb.read_annotation_data(base_directory + "/Annotation/"
                                                    + FileManager.concatenate_extension(base_filename, "txt"), image_size)
 
-        elif datasource_selection == 2:
-            image_size = banana.read_image_size(
-                base_directory + "/Image/" + FileManager.concatenate_extension(base_filename, "jpg"))
-            annotation_data = banana.read_annotation_data(base_directory + "/Annotation/"
-                                                        + FileManager.concatenate_extension(base_filename, "txt"), image_size)
+            # write the xml file
+            fddb.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
+                               FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
 
-        # write the xml file
-        FileManager.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
-                                  FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
+        elif datasource_selection == 2:
+            # check the given file is a valid xml file.
+            if not filename.endswith(".xml"):
+                continue
+
+            image_size = banana.read_image_size(
+                base_directory + "/Annotation/" + FileManager.concatenate_extension(base_filename, "xml"))
+            annotation_data = banana.read_annotation_data(base_directory + "/Annotation/"
+                                                        + FileManager.concatenate_extension(base_filename, "xml"))
+
+            # write the xml file
+            banana.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
+                                 FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
 
     end_time = time.time()
     print()
