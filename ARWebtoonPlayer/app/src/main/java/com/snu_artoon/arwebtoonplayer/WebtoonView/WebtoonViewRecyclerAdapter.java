@@ -48,15 +48,12 @@ public class WebtoonViewRecyclerAdapter
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         String imageURL = webtoonImages.get(position);
-//        LocalImageLoader.load(holder.webtoonImage, imageName);
-        // use Glide imageloader
-        Glide.with(context).load(imageURL).into(holder.webtoonImage);
-        System.out.println(imageURL);
+        LocalImageLoader.load(holder.webtoonImage, imageURL);
+        // Glide Imageloader code if needed.
+        // Glide.with(context).load(imageURL).into(holder.webtoonImage);
 
         // as the imageView should not crop the image, make the boundary fit to the image.
         holder.webtoonImage.setAdjustViewBounds(true);
-
-
     }
 
     @Override

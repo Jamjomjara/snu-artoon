@@ -57,27 +57,27 @@ public class WebtoonViewActivity extends AppCompatActivity {
         webtoonViewRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // Make action bar hidden when scrolled.
-        webtoonViewRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-                if (dy > 40) {
-                    isScrolledDown = true;
-                } else if (dy < -5) {
-                    isScrolledDown = false;
-                }
-            }
-
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                super.onScrollStateChanged(recyclerView, newState);
-                if (isScrolledDown) {
-                    getSupportActionBar().hide();
-                } else {
-                    getSupportActionBar().show();
-                }
-            }
-        });
+//        webtoonViewRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+//            @Override
+//            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+//                super.onScrolled(recyclerView, dx, dy);
+//                if (dy > 40) {
+//                    isScrolledDown = true;
+//                } else if (dy < -5) {
+//                    isScrolledDown = false;
+//                }
+//            }
+//
+//            @Override
+//            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+//                super.onScrollStateChanged(recyclerView, newState);
+//                if (isScrolledDown) {
+//                    getSupportActionBar().hide();
+//                } else {
+//                    getSupportActionBar().show();
+//                }
+//            }
+//        });
     }
 
     /**
