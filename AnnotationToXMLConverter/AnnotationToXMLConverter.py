@@ -3,6 +3,8 @@ import time
 import FileManager
 import FDDBAnnotationReader as fddb
 import BananaAnnotationReader as banana
+import GoogleSearchAnnotationReader as google
+
 
 def main():
     # get the base directory
@@ -15,6 +17,7 @@ def main():
     print("Select Datasource.")
     print("1 - FDDB")
     print("2 - Banana")
+    print("3 - Google")
     datasource_selection = int(input("Datasource # : "))
 
     start_time = time.time()
@@ -54,6 +57,18 @@ def main():
             # write the xml file
             banana.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
                                  FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
+
+        elif datasource_selection == 3:
+            # check the given file is a valid jpg file.
+            if not filename.endswith(".jpg"):
+                continue
+
+            image_size = google.read_image_size(base_directory + "/Image/" + FileManager.concatenate_extension(base_filename, "jpg"))
+            annotation_data = google.read_annotation_data(image_size)
+
+            # write the xml file
+            google.write_xml_tag(base_directory + "/XML/" + FileManager.concatenate_extension(base_filename, "xml"),
+                               FileManager.concatenate_extension(base_filename, "jpg"), image_size, annotation_data)
 
     end_time = time.time()
     print()

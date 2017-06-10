@@ -8,21 +8,16 @@ def read_image_size(path: str):
 
 
 # read the bndbox annotation data from .txt annotation
-def read_annotation_data(path: str, image_size):
+def read_annotation_data(image_size):
     bndbox = []
-    with open(path, "r") as file:
-        lines = file.readlines()
-        for line in lines:
-            data = line.split(" ")
-            for i in range(len(data)):
-                data[i] = float(data[i])
-            xmin = int((data[1] - data[3] / 2) * image_size[0])
-            ymin = int((data[2] - data[4] / 2) * image_size[1])
-            xmax = int((data[1] + data[3] / 2) * image_size[0])
-            ymax = int((data[2] + data[4] / 2) * image_size[1])
-            bndbox.append((xmin, ymin, xmax, ymax))
+    xmin = int(0.2 * image_size[0])
+    ymin = int(0.2 * image_size[1])
+    xmax = int(0.8 * image_size[0])
+    ymax = int(0.8 * image_size[1])
+    bndbox.append((xmin, ymin, xmax, ymax))
 
     return bndbox
+
 
 # write xml tag to the given file
 def write_xml_tag(filepath: str, filename: str, image_size, bndbox):
@@ -33,7 +28,7 @@ def write_xml_tag(filepath: str, filename: str, image_size, bndbox):
         file.write('<folder>Image</folder>')
         file.write('<filename>' + filename + '</filename>')
 
-        file.write('<source><database>FDDB</database></source>')
+        file.write('<source><database>GoogleImage</database></source>')
 
         file.write('<size><width>' + str(image_size[0]) + '</width><height>'
                    + str(image_size[1]) + '</height><depth>3</depth></size>')
@@ -42,7 +37,7 @@ def write_xml_tag(filepath: str, filename: str, image_size, bndbox):
 
         for data in bndbox:
             file.write('<object>')
-            file.write('<name>person</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult>')
+            file.write('<name>banana</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult>')
             file.write('<bndbox>')
             file.write('<xmin>' + str(data[0]) + '</xmin>')
             file.write('<ymin>' + str(data[1]) + '</ymin>')
