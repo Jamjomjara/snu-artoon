@@ -1,2 +1,13 @@
 # macOS
 .DS_Store
+=======
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# PyCharm IDE Files
+.idea/
+__pycache__
