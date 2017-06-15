@@ -1,5 +1,5 @@
 // MIT License
-// Copyright (c) 2017 SNU_ARTOON TEAM
+// Copyright (c) 2017 SNU_ARToon Team
 
 package com.snu_artoon.arwebtoonplayer.WebtoonView;
 
@@ -17,12 +17,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-
 import com.snu_artoon.arwebtoonplayer.DBManager.DBManager;
 import com.snu_artoon.arwebtoonplayer.R;
-
-import org.tensorflow.demo.ClassifierActivity;
-
+import org.tensorflow.demo.ARToonActivity;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -96,7 +93,7 @@ public class WebtoonViewActivity extends AppCompatActivity {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 if (isAtBottom(recyclerView)) {
-                    Intent intent = new Intent(getApplicationContext(), ClassifierActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), ARToonActivity.class);
                     getApplicationContext().startActivity(intent);
                 }
             }

@@ -1,5 +1,5 @@
 // MIT License
-// Copyright (c) 2017 SNU_ARTOON TEAM
+// Copyright (c) 2017 SNU_ARToon Team
 
 package com.snu_artoon.arwebtoonplayer.WebtoonList;
 
@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.snu_artoon.arwebtoonplayer.ChapterList.ChapterListActivity;
 import com.snu_artoon.arwebtoonplayer.HashManager.HashManager;
 import com.snu_artoon.arwebtoonplayer.ImageLoader.LocalImageLoader;

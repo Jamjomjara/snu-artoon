@@ -1,5 +1,5 @@
 // MIT License
-// Copyright (c) 2017 SNU_ARTOON TEAM
+// Copyright (c) 2017 SNU_ARToon Team
 
 package com.snu_artoon.arwebtoonplayer.WebtoonView;
 
@@ -9,12 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-
-import com.bumptech.glide.Glide;
 import com.snu_artoon.arwebtoonplayer.ImageLoader.LocalImageLoader;
 import com.snu_artoon.arwebtoonplayer.R;
-
 import java.util.ArrayList;
+//import com.bumptech.glide.Glide;
 
 public class WebtoonViewRecyclerAdapter
         extends RecyclerView.Adapter<WebtoonViewRecyclerAdapter.ViewHolder> {

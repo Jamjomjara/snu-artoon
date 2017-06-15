@@ -1,18 +1,5 @@
-/*
- * Copyright 2016 The TensorFlow Authors. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+// MIT License
+// Copyright (c) 2017 SNU_ARToon Team
 
 package org.tensorflow.demo;
 
@@ -27,7 +14,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.util.Size;
-import android.view.KeyEvent;
 import android.view.WindowManager;
 import android.widget.Toast;
 import java.nio.ByteBuffer;
@@ -41,8 +27,6 @@ public abstract class CameraActivity extends Activity implements OnImageAvailabl
 
   private static final String PERMISSION_CAMERA = Manifest.permission.CAMERA;
   private static final String PERMISSION_STORAGE = Manifest.permission.WRITE_EXTERNAL_STORAGE;
-
-  private boolean debug = false;
 
   private Handler handler;
   private HandlerThread handlerThread;
@@ -180,37 +164,6 @@ public abstract class CameraActivity extends Activity implements OnImageAvailabl
       }
       buffer.get(yuvBytes[i]);
     }
-  }
-
-  public boolean isDebug() {
-    return debug;
-  }
-
-  public void requestRender() {
-    final OverlayView overlay = (OverlayView) findViewById(R.id.debug_overlay);
-    if (overlay != null) {
-      overlay.postInvalidate();
-    }
-  }
-
-  public void addCallback(final OverlayView.DrawCallback callback) {
-    final OverlayView overlay = (OverlayView) findViewById(R.id.debug_overlay);
-    if (overlay != null) {
-      overlay.addCallback(callback);
-    }
-  }
-
-  public void onSetDebug(final boolean debug) {}
-
-  @Override
-  public boolean onKeyDown(final int keyCode, final KeyEvent event) {
-    if (keyCode == KeyEvent.KEYCODE_VOLUME_DOWN || keyCode == KeyEvent.KEYCODE_VOLUME_UP) {
-      debug = !debug;
-      requestRender();
-      onSetDebug(debug);
-      return true;
-    }
-    return super.onKeyDown(keyCode, event);
   }
 
   protected abstract void onPreviewSizeChosen(final Size size, final int rotation);

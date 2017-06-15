@@ -1,10 +1,9 @@
 // MIT License
-// Copyright (c) 2017 SNU_ARTOON TEAM
+// Copyright (c) 2017 SNU_ARToon Team
 
 package com.snu_artoon.arwebtoonplayer.WebtoonList;
 
 import android.Manifest;
-import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.support.annotation.NonNull;

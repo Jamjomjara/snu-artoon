@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.snu_artoon.arwebtoonplayer">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".WebtoonList.WebtoonListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -18,15 +25,7 @@
         </activity>
         <activity android:name=".ChapterList.ChapterListActivity"/>
         <activity android:name=".WebtoonView.WebtoonViewActivity"/>
-        <activity android:name="org.tensorflow.demo.ClassifierActivity">
+        <activity android:name="org.tensorflow.demo.ARToonActivity"/>
 
-        </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
-
 </manifest>

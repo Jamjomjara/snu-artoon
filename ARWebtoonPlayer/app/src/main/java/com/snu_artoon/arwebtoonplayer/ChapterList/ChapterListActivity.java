@@ -1,5 +1,5 @@
 // MIT License
-// Copyright (c) 2017 SNU_ARTOON TEAM
+// Copyright (c) 2017 SNU_ARToon Team
 
 package com.snu_artoon.arwebtoonplayer.ChapterList;
 

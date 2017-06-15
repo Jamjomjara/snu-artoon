@@ -1,11 +1,10 @@
+// MIT License
+// Copyright (c) 2017 SNU_ARToon Team
+
 package com.snu_artoon.arwebtoonplayer.HashManager;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
-/**
- * Created by barber on 5/17/17.
- */
 
 public class HashManager {
     public static String md5(String key) {
