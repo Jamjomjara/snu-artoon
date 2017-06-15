@@ -30,6 +30,7 @@ public class ChapterListActivity extends AppCompatActivity {
     Intent inIntent;
     String webtoonHashID;
     String webtoonTitle;
+    String webtoonAuthor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +41,9 @@ public class ChapterListActivity extends AppCompatActivity {
         inIntent = getIntent();
         webtoonHashID = inIntent.getStringExtra("webtoonHashID");
         webtoonTitle = inIntent.getStringExtra("webtoonTitle");
+        webtoonAuthor = inIntent.getStringExtra("webtoonAuthor");
 
-        setTitle(webtoonTitle);
+        setTitle(webtoonTitle + " - " + webtoonAuthor);
 
         // Link the RecyclerView, and generate the dbManager.
         chapterListRecyclerView = (RecyclerView)findViewById(R.id.chapter_list_recycler_view);

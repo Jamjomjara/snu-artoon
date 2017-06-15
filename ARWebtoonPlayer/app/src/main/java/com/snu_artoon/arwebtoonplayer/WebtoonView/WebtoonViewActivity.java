@@ -106,6 +106,7 @@ public class WebtoonViewActivity extends AppCompatActivity {
     public static boolean isAtBottom(RecyclerView recyclerView) {
         return !ViewCompat.canScrollVertically(recyclerView, 1);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);

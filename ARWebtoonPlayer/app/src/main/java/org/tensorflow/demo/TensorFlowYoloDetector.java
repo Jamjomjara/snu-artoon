@@ -32,7 +32,7 @@ public class TensorFlowYoloDetector implements Classifier {
   private static final Logger LOGGER = new Logger();
 
   // Only return this many results with at least this confidence.
-  private static final int MAX_RESULTS = 2;
+  private static final int MAX_RESULTS = 3;
 
   private static final int NUM_CLASSES = 1;
 
@@ -53,6 +53,9 @@ public class TensorFlowYoloDetector implements Classifier {
   };
 
   // Config values.
+
+  public static int selectedModel = 0;
+
   private String inputName;
   private int inputSize;
 

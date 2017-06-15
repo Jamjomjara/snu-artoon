@@ -70,7 +70,9 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
     // --input_node_names="Mul" \
     // --output_node_names="final_result" \
     // --input_binary=true
-    private static final String YOLO_MODEL_FILE = "file:///android_asset/tiny-yolo-1c.pb";
+    private static final String YOLO_MODEL_FILE_FACE = "file:///android_asset/tiny-yolo-1c.pb";
+    private static final String YOLO_MODEL_FILE_HAND = "file:///android_asset/tiny-yolo-hand.pb";
+
     private static final int YOLO_INPUT_SIZE = 416;
     private static final String YOLO_INPUT_NAME = "input";
     private static final String YOLO_OUTPUT_NAMES = "output";
@@ -131,14 +133,28 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
         borderedText = new BorderedText(textSizePx);
         borderedText.setTypeface(Typeface.MONOSPACE);
 
-        classifier =
-                TensorFlowYoloDetector.create(
+
+//        classifierFace =
+        if (TensorFlowYoloDetector.selectedModel == 0) {
+            classifier = TensorFlowYoloDetector.create(
+                    getAssets(),
+                    YOLO_MODEL_FILE_FACE,
+                    YOLO_INPUT_SIZE,
+                    YOLO_INPUT_NAME,
+                    YOLO_OUTPUT_NAMES,
+                    YOLO_BLOCK_SIZE);
+
+        } else{
+                classifier = TensorFlowYoloDetector.create(
                         getAssets(),
-                        YOLO_MODEL_FILE,
+                        YOLO_MODEL_FILE_HAND,
                         YOLO_INPUT_SIZE,
                         YOLO_INPUT_NAME,
                         YOLO_OUTPUT_NAMES,
                         YOLO_BLOCK_SIZE);
+            }
+
+
 
 //        resultsView = (ResultsView) findViewById(R.id.results);
         previewWidth = size.getWidth();
@@ -249,63 +265,82 @@ public class ClassifierActivity extends CameraActivity implements OnImageAvailab
             ImageUtils.saveBitmap(croppedBitmap);
         }
 
-        if (endTime - startTime > 500) {
-            startTime = SystemClock.uptimeMillis();
+
             runInBackground(
                     new Runnable() {
                         @Override
                         public void run() {
-                            final long startTime = SystemClock.uptimeMillis();
-                            final List<Classifier.Recognition> results = classifier.recognizeImage(croppedBitmap);
-                            lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
+                            if (endTime - startTime > 300) {
+                                startTime = SystemClock.uptimeMillis();
+                                final List<Classifier.Recognition> results = classifier.recognizeImage(croppedBitmap);
 
-                            ImageView imageView = (ImageView) findViewById(R.id.debug_overlay);
-                            cropCopyBitmap = Bitmap.createBitmap(imageView.getWidth() / 3,
-                                    imageView.getHeight() / 3, Config.ARGB_4444);
+                                ImageView imageView = (ImageView) findViewById(R.id.debug_overlay);
+                                cropCopyBitmap = Bitmap.createBitmap(imageView.getWidth() / 3,
+                                        imageView.getHeight() / 3, Config.ARGB_4444);
 
-                            final Canvas canvas = new Canvas(cropCopyBitmap);
+                                final Canvas canvas = new Canvas(cropCopyBitmap);
 
-                            Bitmap image = BitmapFactory.decodeResource(getResources(), R.drawable.girl_frame_00001);
-
-                            for (final Classifier.Recognition res : results) {
-                                final RectF location = res.getLocation();
-
-                                if (location == null || res.getConfidence() < 0.3f) {
-                                    continue;
+                                Bitmap image;
+                                if (TensorFlowYoloDetector.selectedModel == 0) {
+                                    image = BitmapFactory.decodeResource(getResources(), R.drawable.girl_frame_00001);
+                                } else {
+                                    image = BitmapFactory.decodeResource(getResources(), R.drawable.thumb);
                                 }
 
-                                float height = location.height();
-                                float width = location.width();
+                                for (final Classifier.Recognition res : results) {
+                                    final RectF location = res.getLocation();
 
-                                location.top = location.top + height / 4;
-                                location.bottom = location.bottom + height / 4;
+                                    if (location == null || res.getConfidence() < 0.3f) {
+                                        continue;
+                                    }
 
-                                //                            if (location.left < 100) {
-                                //                                location.left += width;
-                                //                                location.right += width;
-                                //                            } else {
-                                //                                location.left -= width;
-                                //                                location.right -= width;
-                                //                            }
+                                    float height = location.height();
+                                    float width = location.width();
 
-                                canvas.drawBitmap(image, null, location, new Paint());
+                                    if (TensorFlowYoloDetector.selectedModel == 0) {
+                                        float originalRatio = 2.1f;
+                                        location.left *= 0.9;
+                                        location.right *= 1.1;
+                                        location.top *= 1.1;
+                                        location.bottom = location.top + originalRatio * location.width();
+                                    } else {
+                                        location.top *= 0.9;
+                                        location.bottom *= 1.1;
+                                        location.left *= 0.9;
+                                        location.right *= 1.1;
+                                    }
+
+                                    //                            if (location.left < 100) {
+                                    //                                location.left += width;
+                                    //                                location.right += width;
+                                    //                            } else {
+                                    //                                location.left -= width;
+                                    //                                location.right -= width;
+                                    //                            }
+
+                                    canvas.drawBitmap(image, null, location, new Paint());
+                                }
+
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        ImageView imageView = (ImageView) findViewById(R.id.debug_overlay);
+                                        imageView.setImageDrawable(new BitmapDrawable(getResources(), cropCopyBitmap));
+                                    }
+                                });
+
+                                Trace.endSection();
+                                computing = false;
+                                endTime = SystemClock.uptimeMillis();
                             }
 
-                            computing = false;
 
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    ImageView imageView = (ImageView) findViewById(R.id.debug_overlay);
-                                    imageView.setImageDrawable(new BitmapDrawable(getResources(), cropCopyBitmap));
-                                }
-                            });
-                            Trace.endSection();
                         }
+
                     }
             );
-        }
-        endTime = SystemClock.uptimeMillis();
+
+
 
     }
 

@@ -79,6 +79,7 @@ public class WebtoonListRecyclerAdapter
                 Intent intent = new Intent(context, ChapterListActivity.class);
                 intent.putExtra("webtoonHashID", webtoonHashID);
                 intent.putExtra("webtoonTitle", webtoonTitle);
+                intent.putExtra("webtoonAuthor", webtoonAuthor);
                 context.startActivity(intent);
             }
         });

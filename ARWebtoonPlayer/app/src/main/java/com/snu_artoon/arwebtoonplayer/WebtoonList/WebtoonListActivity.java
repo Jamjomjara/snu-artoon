@@ -4,6 +4,7 @@
 package com.snu_artoon.arwebtoonplayer.WebtoonList;
 
 import android.Manifest;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.support.annotation.NonNull;
@@ -13,9 +14,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import com.snu_artoon.arwebtoonplayer.DBManager.DBManager;
 import com.snu_artoon.arwebtoonplayer.R;
+
+import org.tensorflow.demo.TensorFlowYoloDetector;
 
 import java.util.ArrayList;
 
@@ -73,6 +79,30 @@ public class WebtoonListActivity extends AppCompatActivity {
                 }
         }
         finish();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.model_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.face:
+                TensorFlowYoloDetector.selectedModel = 0;
+                return true;
+
+            case R.id.hand:
+                TensorFlowYoloDetector.selectedModel = 1;
+                return true;
+
+            default:
+                return false;
+        }
     }
 
     /**
