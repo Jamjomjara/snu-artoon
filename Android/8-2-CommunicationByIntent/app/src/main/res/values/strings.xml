@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">8-2-CommunicationByIntent</string>
+    <string name="hint">Number</string>
+    <string name="add">Add</string>
+    <string name="compute">Computing</string>
+    <string name="goBack">Go Back</string>
+</resources>

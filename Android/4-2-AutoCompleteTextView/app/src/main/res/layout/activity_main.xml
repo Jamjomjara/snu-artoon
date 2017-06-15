@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <!-- AutoCompleteTextView, users are prompted to select between one. -->
+    <!-- We can give the user about the completion Hint, -->
+    <!-- and we can also set the threshold to show the list. -->
+    <!-- MultiAutoCompletionTextView can get multiple inputs, separated by tokenizer. -->
+    <AutoCompleteTextView
+        android:id="@+id/autoComplete"
+        android:hint="@string/autoComplete"
+        android:completionHint="@string/hint"
+        android:completionThreshold="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoComplete"
+        android:hint="@string/multiAutoComplete"
+        android:completionHint="@string/hint"
+        android:completionThreshold="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">2-2-SelectedImageViewer</string>
+    <string name="startSelection">Do You Want to Start?</string>
+    <string name="switchText">Start</string>
+    <string name="askPicture">Select a picture.</string>
+    <string name="joy">Joyful</string>
+    <string name="book">Book</string>
+    <string name="laptop">laptop</string>
+    <string name="quit">Quit</string>
+    <string name="restart">restart</string>
+    <string name="imageDescription">Beautiful Image</string>
+</resources>

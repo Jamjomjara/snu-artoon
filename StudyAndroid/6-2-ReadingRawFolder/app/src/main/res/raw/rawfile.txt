@@ -1,0 +1,3 @@
+Hello, world!
+This message is saved
+in res/raw/rawfile.txt.

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">6-2-ReadingRawFolder</string>
+    <string name="readRaw">Read from res/raw</string>
+</resources>

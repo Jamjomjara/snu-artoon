@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2-1-SimpleCalculator</string>
+    <string name="addText">Add</string>
+    <string name="subText">Subtract</string>
+    <string name="mulText">Multiply</string>
+    <string name="divText">Divide</string>
+</resources>

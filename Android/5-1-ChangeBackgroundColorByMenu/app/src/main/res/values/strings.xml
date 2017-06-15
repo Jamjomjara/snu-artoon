@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">5-1-ChangeBackgroundColorByMenu</string>
+    <string name="explanation">Change the backgroud by menu.</string>
+    <string name="button">Button</string>
+
+    <string name="orange">Orange</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="white">White</string>
+
+    <string name="buttonChange">Rotate Button</string>
+    <string name="clockwise">Clockwise 45°</string>
+    <string name="counterclockwise">Counterclockwise 45°</string>
+</resources>

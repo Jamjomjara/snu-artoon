@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">3-2-OverlappedLinearLayouts</string>
+    <string name="button1">Button 1</string>
+    <string name="button2">Button 2</string>
+    <string name="button3">Button 3</string>
+    <string name="button4">Button 4</string>
+    <string name="button5">Button 5</string>
+    <string name="button6">Button 6</string>
+</resources>

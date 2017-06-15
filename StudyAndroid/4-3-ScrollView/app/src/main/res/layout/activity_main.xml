@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- By using ScrollView, we can make user scroll the view. -->
+    <!-- As we can only add one Widget to the ScrollView, we usually insert Layout. -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button4"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button6"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button8"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button9"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="@string/button10"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

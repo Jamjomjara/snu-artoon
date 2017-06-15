@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:text="@string/startSelection"
+        android:textSize="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"/>
+
+    <Switch
+        android:id="@+id/startSwitch"
+        android:text="@string/switchText"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/selectPictureText"
+        android:text="@string/askPicture"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"/>
+
+    <RadioGroup
+        android:id="@+id/imageSelectionGroup"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        >
+
+        <RadioButton
+            android:id="@+id/joyRadioButton"
+            android:text="@string/joy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/bookRadioButton"
+            android:text="@string/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/laptopRadioButton"
+            android:text="@string/laptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"/>
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="@string/imageDescription"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"/>
+
+    <Button
+        android:id="@+id/quitButton"
+        android:text="@string/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/restartButton"
+        android:text="@string/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+w
+</LinearLayout>
