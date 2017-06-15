@@ -1,15 +1,11 @@
 # macOS
 .DS_Store
-=======
-=======
->>>>>>> study/android
 
 # macOS System Files
 .DS_Store
 .AppleDouble
 .LSOverride
 
-
-# PyCharm IDE Files
+ PyCharm IDE Files
 .idea/
 __pycache__
