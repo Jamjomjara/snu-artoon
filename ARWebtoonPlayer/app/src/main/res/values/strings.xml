@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ARWebtoonPlayer</string>
+    <string name="webtoon_list_activity_title">네이버 웹툰</string>
+    <string name="thumbnail_description">Thumbnail</string>
+    <string name="webtoon_image_description">Webtoon Image</string>
+    <string name="camera_error">Camera Error</string>
+    <string name="lock_rotate_menu">세로 화면 고정</string>
+    <string name="capture_menu">화면 캡처</string>
+    <string name="unlock_rotate_menu">화면 고정 해제</string>
+    <string name="hand">손 인식 모델</string>
+    <string name="face">얼굴 인식 모델</string>
+</resources>
