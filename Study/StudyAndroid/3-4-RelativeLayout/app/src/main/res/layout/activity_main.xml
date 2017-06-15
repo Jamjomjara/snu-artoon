@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RelativeLayout locates views by 'relation' between views.-->
+
+    <!--This button is located by the relation with its parent view.-->
+    <Button
+        android:id="@+id/base"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="@string/base"/>
+
+    <!-- These buttons are located with the relation of base button. -->
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/base"
+        android:layout_toLeftOf="@id/base"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="@string/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_toLeftOf="@id/base"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="@string/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_toLeftOf="@id/base"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:text="@string/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/base"
+        android:layout_above="@id/base"/>
+
+
+
+
+
+
+</RelativeLayout>
