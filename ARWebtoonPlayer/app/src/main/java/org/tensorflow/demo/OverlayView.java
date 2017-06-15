@@ -37,7 +37,7 @@ public class OverlayView extends View {
    * Interface defining the callback for client classes.
    */
   public interface DrawCallback {
-    public void drawCallback(final Canvas canvas);
+    void drawCallback(final Canvas canvas);
   }
 
   public void addCallback(final DrawCallback callback) {

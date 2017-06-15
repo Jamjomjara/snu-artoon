@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37505b89-6bec-44ba-82eb-6895071d79fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/menu/model_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/assets/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/drawable/chapter_list_001.png" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/drawable/chapter_list_001.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/drawable/chapter_list_002.png" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/drawable/chapter_list_002.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata" afterPath="$PROJECT_DIR$/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonList/WebtoonListActivity.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonList/WebtoonListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/com/snu_artoon/arwebtoonplayer/WebtoonView/WebtoonViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/org/tensorflow/demo/ClassifierActivity.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/org/tensorflow/demo/ClassifierActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/org/tensorflow/demo/TensorFlowYoloDetector.java" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/java/org/tensorflow/demo/TensorFlowYoloDetector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../ARWebtoonPlayer/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,25 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MetadataManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#5187#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <marker date="1497527196000" expanded="true" signature="1015:1138" ph="INSERT INTO WebtoonListDB... " />
-                <marker date="1497527196000" expanded="true" signature="1328:1542" ph="CREATE TABLE... ChapterListDB_missingValue" />
-                <marker date="1497527196000" expanded="true" signature="2771:3007" ph="INSERT INTO ChapterListDB_missingValue... " />
-                <marker date="1497527196000" expanded="true" signature="3198:3298" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
-                <marker date="1497527196000" expanded="true" signature="4894:5044" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MetadataManager.iml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MetadataManager.iml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -59,8 +31,8 @@
       <file leaf-file-name="ConsoleManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="117" column="50" lean-forward="true" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+            <state relative-caret-position="1624">
+              <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
               <folding>
                 <element signature="e#0#5096#0" expanded="true" />
               </folding>
@@ -125,8 +97,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="716" />
-    <option name="height" value="800" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +156,6 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -625,6 +597,7 @@
       <workItem from="1496736585807" duration="15000" />
       <workItem from="1496826797550" duration="9000" />
       <workItem from="1497527223301" duration="1749000" />
+      <workItem from="1497534621698" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="Add jdbc library and solve input bugs caused by carriage return after nextInt() method">
       <created>1495011958678</created>
@@ -637,10 +610,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8703000" />
+    <option name="totallyTimeSpent" value="9604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="716" height="800" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="736" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -651,7 +624,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.50558656" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.4944134" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.4944134" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -718,6 +691,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="117" column="50" lean-forward="true" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#5096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#1256#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5187#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1497527196000" expanded="true" signature="1015:1138" ph="INSERT INTO WebtoonListDB... " />
+            <marker date="1497527196000" expanded="true" signature="1328:1542" ph="CREATE TABLE... ChapterListDB_missingValue" />
+            <marker date="1497527196000" expanded="true" signature="2771:3007" ph="INSERT INTO ChapterListDB_missingValue... " />
+            <marker date="1497527196000" expanded="true" signature="3198:3298" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
+            <marker date="1497527196000" expanded="true" signature="4894:5044" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
@@ -737,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HashManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -758,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConsoleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="117" column="50" lean-forward="true" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        <state relative-caret-position="1624">
+          <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
           <folding>
             <element signature="e#0#5096#0" expanded="true" />
           </folding>
@@ -768,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MetadataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="312">
+          <caret line="108" column="74" lean-forward="false" selection-start-line="108" selection-start-column="74" selection-end-line="108" selection-end-column="74" />
           <folding>
             <element signature="e#0#5187#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -779,6 +789,14 @@
             <marker date="1497527196000" expanded="true" signature="3198:3298" ph="CREATE TABLE... ImageListDB_missingValue_missingValue" />
             <marker date="1497527196000" expanded="true" signature="4894:5044" ph="INSERT INTO ImageListDB_missingValue_missingValue... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetadataManager.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
