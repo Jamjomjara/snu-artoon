@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:stretchColumns="*">
+
+    <!-- TableLayout is very similar with making HTML tables. -->
+    <!-- To make a table row, use <TableRow>. -->
+    <!-- Each widget can have <layout_span> which merges the n columns. -->
+    <!-- <layout_column> selects the column number the widget should be shown. -->
+    <!-- <stretchColumn> resizes the column size, and ="*" divides and fills the screen equally. -->
+
+
+    <!-- Two EditTexts, each is one row, and should use 5 columns(span = 5) -->
+    <TableRow>
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_span="5"
+            android:hint="@string/editText1"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_span="5"
+            android:hint="@string/editText2"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <!-- Number button 0 to 9, which are shown in 2 rows -->
+    <TableRow>
+        <Button
+            android:id="@+id/button0"
+            android:text="@string/button0"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:text="@string/button1"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:text="@string/button2"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:text="@string/button3"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:text="@string/button4"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button5"
+            android:text="@string/button5"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:text="@string/button6"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:text="@string/button7"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:text="@string/button8"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:text="@string/button9"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <!-- Four Buttons for Computation. -->
+    <TableRow>
+        <Button
+            android:id="@+id/add"
+            android:text="@string/add"
+            android:layout_span="5"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/sub"
+            android:text="@string/sub"
+            android:layout_span="5"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/mul"
+            android:text="@string/mul"
+            android:layout_span="5"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/div"
+            android:text="@string/div"
+            android:layout_span="5"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <!-- Result Text Row-->
+    <TableRow>
+        <TextView
+            android:id="@+id/result"
+            android:layout_span="5"
+            android:textSize="40sp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">5-2-ChangeBackgroundColorByContextMenu</string>
+
+    <string name="orange">Orange</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="white">White</string>
+
+    <string name="clockwise">Clockwise 45°</string>
+    <string name="bigger">2x Bigger</string>
+    <string name="smaller">2x Smaller</string>
+
+    <string name="background">Background Color</string>
+    <string name="buttonShape">Button Shape</string>
+
+</resources>

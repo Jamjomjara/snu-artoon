@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">10-2-GroupDBManagement</string>
+    <string name="name">Name :</string>
+    <string name="size">Size :</string>
+    <string name="reset">Reset</string>
+    <string name="insert">Insert</string>
+    <string name="search">Search</string>
+</resources>

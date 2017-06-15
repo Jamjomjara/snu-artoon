@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- To add menu list, add here with <item> tag. -->
+    <item
+        android:id="@+id/orange"
+        android:title="@string/orange">
+    </item>
+
+    <item
+        android:id="@+id/green"
+        android:title="@string/green">
+    </item>
+
+    <item
+        android:id="@+id/blue"
+        android:title="@string/blue">
+    </item>
+
+    <item
+        android:id="@+id/white"
+        android:title="@string/white">
+    </item>
+
+    <item
+        android:id="@+id/rotateButton"
+        android:title="@string/buttonChange">
+        <menu>
+            <item
+                android:id="@+id/clockwise"
+                android:title="@string/clockwise">
+            </item>
+
+            <item
+                android:id="@+id/counterclockwise"
+                android:title="@string/counterclockwise">
+            </item>
+        </menu>
+    </item>
+</menu>
