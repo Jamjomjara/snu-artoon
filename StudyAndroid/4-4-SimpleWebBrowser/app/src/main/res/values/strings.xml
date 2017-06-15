@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">4-4-SimpleWebBrowser</string>
-
-    <string name="URLEditTextHint">Enter URL</string>
-    <string name="goButtonText">Go</string>
-    <string name="backButtonText">Back</string>
-
-</resources>

@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">5-3-UserInputContextMenu</string>
-    <string name="name">User Name</string>
-    <string name="email">User Email</string>
-    <string name="buttonText">Press Here!</string>
-    <string name="nameHint">Input your name here.</string>
-    <string name="emailHint">Input your email here.</string>
-</resources>

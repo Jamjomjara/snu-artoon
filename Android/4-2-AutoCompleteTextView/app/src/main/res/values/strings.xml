@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">4-2-AutoCompleteTextView</string>
-    <string name="autoComplete">Auto Complete Text View</string>
-    <string name="multiAutoComplete">Multi Auto Complete Text View</string>
-    <string name="hint">Select One.</string>
-</resources>

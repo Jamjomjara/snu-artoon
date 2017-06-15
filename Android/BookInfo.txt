@@ -1,9 +1,0 @@
-Android Programming Using Android Studio
-(Android Studio를 활용한 안드로이드 프로그래밍)
-
-by 우재남, 박길식
-한빛아카데미, 서울
-2015년 6월 22일 2쇄 발행
-
-Seoul National University Library
-005.268 U5a, 2015

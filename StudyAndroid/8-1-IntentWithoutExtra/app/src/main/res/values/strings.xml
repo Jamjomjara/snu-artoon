@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">8-1-IntentWithoutExtra</string>
-    <string name="goToNext">Go to Next Page</string>
-    <string name="goToPrevious">Go To Previous Page</string>
-    <string name="secondActivity">Second Activity</string>
-    <string name="firstActivity">First Activity</string>
-</resources>

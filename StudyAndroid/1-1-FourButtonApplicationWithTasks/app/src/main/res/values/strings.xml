@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">1-1-AppWithFourButtonTasks</string>
-
-    <!-- Strings for buttons -->
-    <string name="button1String">Open Naver Webtoon Webpage</string>
-    <string name="button2String">Call CSE, SNU</string>
-    <string name="button3String">Launch Gallery</string>
-    <string name="button4String">Finish the App</string>
-</resources>
