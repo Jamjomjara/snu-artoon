@@ -4,15 +4,28 @@
 package com.snu_artoon.arwebtoonplayer.WebtoonView;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.os.Environment;
+import android.support.v4.view.ViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 
 import com.snu_artoon.arwebtoonplayer.DBManager.DBManager;
 import com.snu_artoon.arwebtoonplayer.R;
 
+import org.tensorflow.demo.ClassifierActivity;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class WebtoonViewActivity extends AppCompatActivity {
@@ -78,7 +91,50 @@ public class WebtoonViewActivity extends AppCompatActivity {
 //                }
 //            }
 //        });
+
+        webtoonViewRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                if (isAtBottom(recyclerView)) {
+                    Intent intent = new Intent(getApplicationContext(), ClassifierActivity.class);
+                    getApplicationContext().startActivity(intent);
+                }
+            }
+        });
     }
+
+    public static boolean isAtBottom(RecyclerView recyclerView) {
+        return !ViewCompat.canScrollVertically(recyclerView, 1);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.webtoon_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.lock_rotate:
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+                return true;
+
+            case R.id.unlock_rotate:
+                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+                return true;
+
+            case R.id.capture:
+                captureScreen();
+                return true;
+
+            default:
+                return false;
+        }
+    }
+
+
 
     /**
      * Get and save webtoonImages information from the DB to the corresponding lists.
@@ -91,6 +147,23 @@ public class WebtoonViewActivity extends AppCompatActivity {
         }
         cursor.close();
         dbManager.close();
+    }
+
+    private void captureScreen() {
+        View v = getWindow().getDecorView().getRootView();
+        v.setDrawingCacheEnabled(true);
+        Bitmap bmp = Bitmap.createBitmap(v.getDrawingCache());
+        v.setDrawingCacheEnabled(false);
+        try {
+            FileOutputStream fos = new FileOutputStream(new File(Environment
+                    .getExternalStorageDirectory().toString(), "SCREEN"
+                    + System.currentTimeMillis() + ".png"));
+            bmp.compress(Bitmap.CompressFormat.PNG, 100, fos);
+            fos.flush();
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
 

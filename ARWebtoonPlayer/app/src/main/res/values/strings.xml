@@ -3,4 +3,8 @@
     <string name="webtoon_list_activity_title">Webtoons</string>
     <string name="thumbnail_description">Thumbnail</string>
     <string name="webtoon_image_description">Webtoon Image</string>
+    <string name="camera_error">Camera Error</string>
+    <string name="lock_rotate_menu">Fix Portrait Orientation</string>
+    <string name="capture_menu">Capture</string>
+    <string name="unlock_rotate_menu">Unlock Orientation</string>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/lock_rotate"
+        android:title="@string/lock_rotate_menu"/>
+
+    <item
+        android:id="@+id/unlock_rotate"
+        android:title="@string/unlock_rotate_menu"/>
+
+    <item
+        android:id="@+id/capture"
+        android:title="@string/capture_menu"
+        />
+</menu>
