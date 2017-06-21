@@ -1,2 +1,0 @@
-# snu-artoon
-ARToon
